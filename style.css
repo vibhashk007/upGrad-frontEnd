@@ -1,0 +1,68 @@
+body{
+    background: url(a.jpg);
+    background-size: cover; 
+    background-color: rgba(240, 248, 255, 0.363);
+    background-repeat: no-repeat;
+   
+}
+
+.box{
+    background: rgba(255, 255, 255, 0.24);
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left:auto;
+    width: 30%;
+    box-shadow: 5px 8px 5px #0202028f;
+    align-content: center;
+    border-radius: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+input[type = "text"],input[type = "password"]{
+    border:0;
+    
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 20px;
+    width: 40%;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: #5691c92a;
+    
+  }
+  @media(max-width:100%)
+  input[type = "text"]:hover,input[type = "password"]:hover{
+    width: 50%;
+    
+    background: silver;
+    
+  }
+  input[type = "text"]:focus,input[type = "password"]:focus{
+    width: 40%;
+    
+    background: silver;
+    
+  }
+  input[type="submit"]{
+    width: 50%;
+    
+    background: linear-gradient(90deg,#336492,#0d3c68,rgb(2, 12, 58));
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Days One', sans-serif;
+    font-size:0.75vw;
+  }
+  input[type="submit"]:hover{
+    background: linear-gradient(90deg,#05294d,black);
+    color:rgba(197, 122, 60, 0.863);
+    
+
+  }
